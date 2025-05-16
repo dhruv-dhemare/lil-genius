@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Good_manners</title>
+    <link rel="stylesheet" href="good manners.css" />
+  </head>
+  <script src="timelimit.js"></script>
+  <style>
+    * {
+      background-color: rgb(212, 212, 234);
+    }
+
+    h1 {
+      display: flex;
+      justify-content: center;
+      margin-top: 40px;
+      font-size: 70px;
+      text-decoration: underline;
+      text-shadow: 3px 2px beige;
+    }
+
+    .manner1 {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 150px;
+    }
+
+    #img1 {
+      display: inline-block;
+    }
+
+    #man1 {
+      display: inline-block;
+      font-size: 50px;
+      margin-top: 120px;
+    }
+
+    .manner2 {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 150px;
+    }
+
+    #img2 {
+      display: inline-block;
+    }
+
+    #man2 {
+      display: inline-block;
+      font-size: 50px;
+      margin-top: 120px;
+    }
+
+    .manner3 {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 150px;
+    }
+
+    #img3 {
+      display: inline-block;
+    }
+
+    #man3 {
+      display: inline-block;
+      font-size: 50px;
+      margin-top: 80px;
+    }
+
+    .manner4 {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 150px;
+    }
+
+    #img4 {
+      display: inline-block;
+    }
+
+    #man4 {
+      display: inline-block;
+      font-size: 50px;
+      margin-top: 120px;
+    }
+
+    .manner5 {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 150px;
+    }
+
+    #img5 {
+      display: inline-block;
+    }
+
+    #man5 {
+      display: inline-block;
+      font-size: 50px;
+      margin-top: 100px;
+    }
+
+    .manner6 {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 150px;
+    }
+
+    #img6 {
+      display: inline-block;
+    }
+
+    #man6 {
+      display: inline-block;
+      font-size: 50px;
+      margin-top: 120px;
+    }
+
+    .manner7 {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 150px;
+    }
+
+    #img7 {
+      display: inline-block;
+    }
+
+    #man7 {
+      display: inline-block;
+      font-size: 50px;
+      margin-top: 120px;
+    }
+
+    .manner8 {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 150px;
+      margin-bottom: 150px;
+    }
+
+    #img8 {
+      display: inline-block;
+    }
+
+    #man8 {
+      display: inline-block;
+      font-size: 50px;
+      margin-top: 120px;
+    }
+    ul {
+      padding: 100;
+      margin: 100;
+      list-style-type: none;
+      display: flex;
+      justify-content: flex-end;
+      margin-right: 40px;
+    }
+
+    li {
+      inline-size: 12%;
+    }
+  </style>
+  <body>
+    <div class="nav">
+      <ul>
+        <li>
+          <a href="home.html"
+            ><font size="5"><b>Home</b></font>
+          </a>
+        </li>
+        <li>
+          <a href="contactus.html"
+            ><font size="5"><b>Contact Us</b></font>
+          </a>
+        </li>
+        <li>
+          <a href="aboutus.html"
+            ><font size="5"><b>About Us</b></font>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <h1>GOOD MANNERS</h1>
+
+    <div class="manner1">
+      <div id="img1">
+        <img src="img/brush.jpg" height="350" onclick="clickAA();">
+      </div>
+      <div id="man1" onclick="clickAA();">Brush your teeth twice a day.</div>
+      <audio
+        id="AAA"
+        src="audio/brush.mp3"
+        autoplay="false"
+      ></audio>
+      <script>
+        function clickAA() {
+          var sound = document.getElementById("AAA");
+          sound.play();
+        }
+      </script>
+    </div>
+
+    <div class="manner2">
+      <div id="man2" onclick="clickBB();">
+        Wash your hands before and <br />after eating.
+      </div>
+      <div id="img2" onclick="clickBB();">
+        <img src="img/wash.jpg" height="350" />
+      </div>
+      <audio
+        id="BBB"
+        src="audio/wash.mp3"
+        autoplay="false"
+      ></audio>
+      <script>
+        function clickBB() {
+          var sound = document.getElementById("BBB");
+          sound.play();
+        }
+      </script>
+    </div>
+
+    <div class="manner3">
+      <div id="img3" onclick="clickCC();">
+        <img src="img/please.jpg" height="350" />
+      </div>
+      <div id="man3" onclick="clickCC();">
+        Say 'PLEASE' when you are <br />politely asking someone to <br />do
+        something.
+      </div>
+      <audio
+        id="CCC"
+        src="audio/please.mp3"
+        autoplay="false"
+      ></audio>
+      <script>
+        function clickCC() {
+          var sound = document.getElementById("CCC");
+          sound.play();
+        }
+      </script>
+    </div>
+
+    <div class="manner4">
+      <div id="man4" onclick="clickDD();">
+        Say 'SORRY' to apologize <br />for your mistakes.
+      </div>
+      <div id="img4" onclick="clickDD();">
+        <img src="img/sorry.jpg" height="350" />
+      </div>
+      <audio
+        id="DDD"
+        src="audio/sorry.mp3"
+        autoplay="false"
+      ></audio>
+      <script>
+        function clickDD() {
+          var sound = document.getElementById("DDD");
+          sound.play();
+        }
+      </script>
+    </div>
+
+    <div class="manner5">
+      <div id="img5" onclick="clickEE();">
+        <img src="img/thanks.jpg" height="350" />
+      </div>
+      <div id="man5" onclick="clickEE();">
+        Say 'THANK YOU' to express <br />gratitude.
+      </div>
+      <audio
+        id="EEE"
+        src="audio/thank.mp3"
+        autoplay="false"
+      ></audio>
+      <script>
+        function clickEE() {
+          var sound = document.getElementById("EEE");
+          sound.play();
+        }
+      </script>
+    </div>
+
+    <div class="manner6">
+      <div id="man6" onclick="clickFF();">
+        Knock on the door before <br />entering a room.
+      </div>
+      <div id="img6" onclick="clickFF();">
+        <img src="img/knock.jpg" height="350" />
+      </div>
+      <audio
+        id="FFF"
+        src="audio/knock.mp3"
+        autoplay="false"
+      ></audio>
+      <script>
+        function clickFF() {
+          var sound = document.getElementById("FFF");
+          sound.play();
+        }
+      </script>
+    </div>
+
+    <div class="manner7">
+      <div id="img7" onclick="clickGG();">
+        <img src="trash\respecting elders.jpg" height="350" />
+      </div>
+      <div id="man7" onclick="clickGG();">Respect and obey elders.</div>
+      <audio
+        id="GGG"
+        src="audio/elders.mp3"
+        autoplay="false"
+      ></audio>
+      <script>
+        function clickGG() {
+          var sound = document.getElementById("GGG");
+          sound.play();
+        }
+      </script>
+    </div>
+
+    <div class="manner8">
+      <div id="man8" onclick="clickHH();">
+        Put away smartphones while <br />at dining table.
+      </div>
+      <div id="img8" onclick="clickHH();">
+        <img src="trash\smartphones.jpg" height="350" />
+      </div>
+      <audio
+        id="HHH"
+        src="audio/table.mp3"
+        autoplay="false"
+      ></audio>
+      <script>
+        function clickHH() {
+          var sound = document.getElementById("HHH");
+          sound.play();
+        }
+      </script>
+    </div>
+  </body>
+</html>

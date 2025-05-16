@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script src="timelimit.js"></script>
+<style>
+    .Myself{
+        margin-left: 260px;
+        font-size: 100px;
+        margin-top: 7%;
+        margin-bottom: 2%;
+        
+    }
+    .content{
+        margin-left: 35%;
+        margin-top: 40px;
+    
+    }
+    .tr{
+        text-align: center;
+       
+    }
+    .icon{
+        margin-left: 1400px;
+    }
+</style>
+<body style="background-image: url(img/songs\ bg.jpg);
+background-size: cover;">
+    <h1 class=Myself >Twinkle Twinkle little star </h1>
+    <div class="icon">
+        <img
+          src="img/speaker_icon.png"
+          alt="speaker_icon"
+          width="60px"
+          onclick="clickAA();"
+          ;
+        />
+        <audio
+          id="AAA"
+          src="audio/twinkle (2).mp3"
+          autoplay="false"
+        ></audio>
+        <script>
+          function clickAA() {
+            var sound = document.getElementById("AAA");
+            sound.play();
+          }
+        </script>
+      </div>
+    <table class=content>
+        <tr class="tr">
+            <td>
+                <h1>Twinkle Twinkle little star</h1>
+                <h1>How I wonder</h1>
+                <h1>What you are</h1>
+                <h1>Up above the world so high</h1>
+                <h1>Like a diamond in the sky</h1>
+                <h1>Twinkle Twinkle little star</h1>
+                <h1>How I wonder</h1>
+                <h1> What you are</h1>
+                
+
+            </td>
+        </tr>
+    </table>
+
+   
+    
+    
+</body>
+</html>

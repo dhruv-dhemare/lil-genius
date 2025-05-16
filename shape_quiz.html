@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>shape quiz</title>
+  </head>
+  <script src="timelimit.js"></script>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+    body {
+      background-image: url(img/shape_bg.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    h1 {
+      font-size: 100px;
+      font-style: italic;
+      text-decoration: underline;
+    }
+    .shape1 {
+      height: 400px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-top: 100px;
+    }
+    .option {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding-inline: 40px;
+      margin-left: 200px;
+    }
+    button {
+      width: 200px;
+      height: 100px;
+      border-radius: 20px;
+      font-family: cursive;
+      font-size: 30px;
+    }
+    .square {
+      margin-top: 100px;
+      height: 250px;
+      width: 250px;
+      background: rgb(102, 181, 102);
+    }
+    .triangle-up {
+      margin-top: 100px;
+      width: 0;
+      height: 0;
+      border-left: 150px solid transparent;
+      border-right: 150px solid transparent;
+      border-bottom: 250px solid rgb(102, 181, 102);
+    }
+    .rectangle {
+      margin-top: 100px;
+      height: 170px;
+      width: 270px;
+      background: rgb(102, 181, 102);
+    }
+    .circle {
+      margin-top: 100px;
+      height: 250px;
+      width: 250px;
+      background-color: rgb(102, 181, 102);
+      border-radius: 50%;
+    }
+    /* .first:active{
+    background: green;
+}
+.second:active{
+    background: red;
+}
+.third:active{
+    background: red;
+   
+} */
+    .first {
+      background-color: aliceblue;
+      /* transition: background-color  ; */
+    }
+
+    .first:focus {
+      background-color: green;
+    }
+
+    .second {
+      background-color: aliceblue;
+      transition: background-color;
+    }
+
+    .second:focus {
+      background-color: red;
+    }
+
+    .third {
+      background-color: aliceblue;
+      transition: background-color;
+    }
+
+    .third:focus {
+      background-color: red;
+    }
+  </style>
+  <body>
+    <center><h1>SHAPE QUIZ</h1></center>
+    <div class="shape1">
+      <div class="square"></div>
+      <div class="option">
+        <button class="third">STAR</button>
+        <button class="first">SQUARE</button>
+        <button class="second">RECTANGLE</button>
+      </div>
+    </div>
+    <div class="shape1">
+      <div class="triangle-up"></div>
+      <div class="option">
+        <button class="first">TRIANGLE</button>
+        <button class="third">CIRCLE</button>
+        <button class="second">RECTANGLE</button>
+      </div>
+    </div>
+    <div class="shape1">
+      <div class="circle"></div>
+      <div class="option">
+        <button class="second">STAR</button>
+        <button class="first">CIRCLE</button>
+        <button class="third">SQUARE</button>
+      </div>
+    </div>
+    <div class="shape1">
+      <div class="rectangle"></div>
+      <div class="option">
+        <button class="second">CIRCLE</button>
+        <button class="third">TRIANGLE</button>
+        <button class="first">RECTANGLE</button>
+      </div>
+    </div>
+  </body>
+</html>

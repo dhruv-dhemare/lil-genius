@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>THE BOY WHO CRIES WOLF</title>
+    <script src="timelimit.js"></script>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background-image: url(img/crow_bg.jpg);
+      background-size: cover;
+    }
+    .box1 {
+      display: flex;
+      flex-direction: row;
+      margin-top: 50px;
+      margin-bottom: 20px;
+      margin-right: 100px;
+      margin-left: 100px;
+      align-items: center;
+    }
+    .box2 {
+      display: flex;
+      flex-direction: row-reverse;
+      margin-top: 50px;
+      margin-bottom: 20px;
+      margin-right: 100px;
+      margin-left: 100px;
+      align-items: center;
+    }
+    .photo {
+      width: 500px;
+      margin: 30px;
+    }
+    .text {
+      font-size: 40px;
+      font-family: cursive;
+    }
+    h1 {
+      margin-top: 20px;
+      font-size: 80px;
+      font-family: cursive;
+      text-shadow: 2px 2px beige;
+    }
+    .moral {
+      font-size: 50px;
+      font-family: cursive;
+      margin-bottom: 20px;
+    }
+    .p {
+      font-size: 30px;
+    }
+    .vid {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-left: 50px;
+      margin-right: 50px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .icon {
+      margin-left: 1400px;
+    }
+  </style>
+  <body>
+    <center>
+      <h1><u>THE BOY WHO CRIES WOLF</u></h1>
+      <div class="icon">
+        <img
+          src="img/speaker_icon.png"
+          alt="speaker_icon"
+          width="40px"
+          onclick="clickAA();"
+          ;
+        />
+        <audio
+          id="AAA"
+          src="audio/stories/the boy wolf.mp3"
+          autoplay="false"
+        ></audio>
+        <script>
+          function clickAA() {
+            var sound = document.getElementById("AAA");
+            sound.play();
+          }
+        </script>
+      </div>
+      <div class="box1">
+        <div class="img">
+          <img class="photo" src="img/bw1.png" alt="rt1" />
+        </div>
+        <div class="text">
+          Once upon a time, there was a shepherd boy who watched over his flock
+          of sheep on a hillside. One day, feeling bored, he decided to play a
+          prank on the villagers below. He shouted, "Wolf! Wolf! The wolf is
+          attacking the sheep!" The villagers, alarmed, rushed to his aid, only
+          to find that there was no wolf.
+        </div>
+      </div>
+      <div class="box2">
+        <div class="img">
+          <img class="photo" src="img/bw2.png" alt="rt2" />
+        </div>
+        <div class="text">
+          The boy laughed at the villagers. A few days later, he played the same
+          trick again. This time, the villagers were a bit skeptical but still
+          came to help. Again, they found no wolf.
+        </div>
+      </div>
+      <div class="box1">
+        <div class="img">
+          <img class="photo" src="img/bw3.png" alt="rt3" />
+        </div>
+        <div class="text">
+          Then, one day, a real wolf came. The boy cried out for help, "Wolf!
+          Wolf! Please, help!" But this time, the villagers, remembering the
+          boy's previous false alarms, ignored him. The wolf attacked the flock,
+          and the boy learned his lesson the hard way: dishonesty has
+          consequences, and no one believes a liar, even when they tell the
+          truth.
+        </div>
+      </div>
+      <div class="moral">
+        <p>MORAL:- LIARS ARE NOT BELIEVED EVEN WHEN THEY SPEAK TRUTH</p>
+      </div>
+    </center>
+    <div class="vid">
+      <center>
+        <div class="one">
+          <p class="p">ENGLISH</p>
+          <video src="" width="700px"></video>
+        </div>
+      </center>
+      <center>
+        <div class="one">
+          <p class="p">HINDI</p>
+          <video src="" width="700px"></video>
+        </div>
+      </center>
+    </div>
+  </body>
+</html>

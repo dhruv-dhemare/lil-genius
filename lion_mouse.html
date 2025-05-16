@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LION AND MOUSE</title>
+  </head>
+  <script src="timelimit.js"></script>  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background-image: url(img/crow_bg.jpg);
+      background-size: cover;
+    }
+    .box1 {
+      display: flex;
+      flex-direction: row;
+      margin-top: 50px;
+      margin-bottom: 20px;
+      margin-right: 100px;
+      margin-left: 100px;
+      align-items: center;
+    }
+    .box2 {
+      display: flex;
+      flex-direction: row-reverse;
+      margin-top: 50px;
+      margin-bottom: 20px;
+      margin-right: 100px;
+      margin-left: 100px;
+      align-items: center;
+    }
+    .photo {
+      width: 500px;
+      margin: 30px;
+    }
+    .text {
+      font-size: 40px;
+      font-family: cursive;
+    }
+    h1 {
+      margin-top: 20px;
+      font-size: 80px;
+      font-family: cursive;
+      text-shadow: 2px 2px beige;
+    }
+    .moral {
+      font-size: 50px;
+      font-family: cursive;
+      margin-bottom: 20px;
+    }
+    .p {
+      font-size: 30px;
+    }
+    .vid {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-left: 50px;
+      margin-right: 50px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .icon {
+      margin-left: 1400px;
+    }
+  </style>
+  <body>
+    <center>
+      <h1><u>THE LION AND THE MOUSE</u></h1>
+      <div class="icon">
+        <img
+          src="img/speaker_icon.png"
+          alt="speaker_icon"
+          width="40px"
+          onclick="clickAA();"
+          ;
+        />
+        <audio id="AAA" src="audio/stories/lion.mp3" autoplay="false"></audio>
+        <script>
+          function clickAA() {
+            var sound = document.getElementById("AAA");
+            sound.play();
+          }
+        </script>
+      </div>
+      <div class="box1">
+        <div class="img">
+          <img class="photo" src="img/lm1.png" alt="lm1" />
+        </div>
+        <div class="text">
+          A Lion lay asleep in the forest, his great head resting on his paws. A
+          timid little Mouse came upon him unexpectedly, and in her fright and
+          haste to get away, ran across the Lion's nose. Roused from his nap,
+          the Lion laid his huge paw angrily on the tiny creature to kill her.
+          "Spare me!" begged the poor Mouse. "Please let me go and some day I
+          will surely repay you."
+        </div>
+      </div>
+      <div class="box2">
+        <div class="img">
+          <img class="photo" src="img/lm2.png" alt="lm2" />
+        </div>
+        <div class="text">
+          The Lion was much amused to think that a Mouse could ever help him.
+          But he was generous and finally let the Mouse go. Some days later,
+          while stalking his prey in the forest, the Lion was caught in the
+          toils of a hunter's net. Unable to free himself, he filled the forest
+          with his angry roaring.
+        </div>
+      </div>
+      <div class="box1">
+        <div class="img">
+          <img class="photo" src="img/lm3.png" alt="lm3" />
+        </div>
+        <div class="text">
+          The Mouse knew the voice and quickly found the Lion struggling in the
+          net. Running to one of the great ropes that bound him, she gnawed it
+          until it parted, and soon the Lion was free. "You laughed when I said
+          I would repay you," said the Mouse. "Now you see that even a Mouse can
+          help a Lion."
+        </div>
+      </div>
+      <div class="moral"><p>MORAL:- KINDNESS IS NEVER WASTED</p></div>
+    </center>
+    <div class="vid">
+      <center>
+        <div class="one">
+          <p class="p">ENGLISH</p>
+          <video src="" width="700px"></video>
+        </div>
+      </center>
+      <center>
+        <div class="one">
+          <p class="p">HINDI</p>
+          <video src="" width="700px"></video>
+        </div>
+      </center>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>2-4 category</title>
+    <script src="timelimit.js"></script>
+    <style>
+      .h1 {
+        text-align: center;
+        text-decoration: dotted;
+        color: skyblue;
+
+        margin-top: 6%;
+        font-size: 120px;
+      }
+
+      .tbl {
+        align-content: center;
+
+        height: 650px;
+        width: 926px;
+        margin-left: 10%;
+      }
+      .txt {
+        text-align: center;
+        font-size: 60px;
+        color: white;
+        margin-top: 10%;
+      }
+      .alpha {
+        height: 120px;
+        font-size: 100px;
+        border-radius: 30px;
+        margin-top: 5%;
+        margin-left: 40%;
+        margin-bottom: 6%;
+        background-color: transparent;
+        color: white;
+        outline: none;
+        border: none;
+      }
+      .num {
+        height: 80px;
+        font-size: 55px;
+        border-radius: 30px;
+        margin-left: 5%;
+        margin-bottom: 5%;
+        background-color: transparent;
+        color: white;
+        outline: none;
+        border: none;
+      }
+      .poems {
+        font-size: 90px;
+        border-radius: 30px;
+        margin-left: 20%;
+        background-color: transparent;
+        color: white;
+        margin-bottom: 15%;
+        outline: none;
+        border: none;
+      }
+      .word {
+        height: 70px;
+        margin-bottom: 2%;
+        font-size: 50px;
+        border-radius: 30px;
+        margin-left: 87%;
+        background-color: transparent;
+        color: white;
+        outline: none;
+        border: none;
+      }
+      body {
+        background-image: url(img/2-4bg.jpg);
+        background-size: 1450px 1170px;
+        background-repeat: no-repeat;
+        background-color: rgb(207, 251, 160);
+      }
+      
+    </style>
+    <script>
+// Set the time limit in milliseconds (e.g., 1 minutes)
+var timeLimit = 1 * 60 * 1000; // 1 minutes
+setTimeout(function(){
+    // Redirect to another page after the time limit
+    window.location.href = "new.html";
+}, timeLimit);
+
+    </script>
+  </head>
+  <body class="body">
+    <h1 class="h1">2-4 YEARS</h1>
+
+    <table class="tbl">
+      <tr>
+        <td>
+          <button
+            class="alpha"
+            onclick="window.location.href='first_alpha.html';"
+          >
+            ALPHABETS
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <button
+            class="num"
+            onclick="window.location.href='first_number.html';"
+          >
+            NUMBERS
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <button class="word" onclick="window.location.href='words_2-4.html';">
+            WORDS
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <button class="poems" onclick="window.location.href='poem.html';">
+            POEMS
+          </button>
+        </td>
+      </tr>
+    </table>
+    <audio
+      src="audio/home_audio.mp3"
+      autoplay="true"
+      height="0"
+      loop="true"
+    ></audio>
+  </body>
+</html>

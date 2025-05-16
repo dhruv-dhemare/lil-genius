@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LIL GENIUS_animals</title>
+  </head>
+  <script src="timelimit.js"></script>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    body {
+      padding: 0;
+      margin: 0;
+      background-image: url(img/animals_bg.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .lines {
+      font-size: 100px;
+      font-family: cursive;
+      color: darkslateblue;
+      background: rgba(152, 97, 97, 0.207);
+    }
+
+    ul {
+      padding: 100;
+      margin: 100;
+      list-style-type: none;
+      display: flex;
+      justify-content: flex-end;
+      margin-right: 40px;
+    }
+
+    li {
+      inline-size: 12%;
+    }
+
+    .animals1 {
+      height: 120px;
+      width: 450px;
+      font-size: 80px;
+      font-family: cursive;
+      border-radius: 30px;
+      margin-left: 105px;
+      background-color: rgba(152, 97, 97, 0.207);
+    }
+    .animals2 {
+      height: 120px;
+      width: 450px;
+      font-size: 80px;
+      font-family: cursive;
+      border-radius: 30px;
+      margin-right: 105px;
+      background-color: rgba(152, 97, 97, 0.207);
+    }
+
+    .first {
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+    }
+    .second {
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row-reverse;
+    }
+    .third {
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+    }
+    .fourth {
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row-reverse;
+    }
+    .fifth {
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+    }
+    .sixth {
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row-reverse;
+    }
+  </style>
+  <body>
+    <div class="nav">
+      <ul>
+        <li>
+          <a href="home.html"
+            ><font size="5"><b>Home</b></font></a
+          >
+        </li>
+        <li>
+          <a href="contactus.html"
+            ><font size="5"><b>Contact Us</b></font>
+          </a>
+        </li>
+        <li>
+          <a href="aboutus.html"
+            ><font size="5"><b>About Us</b></font>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="lines">
+      <p><center>ANIMALS</center></p>
+    </div>
+
+    <div class="first">
+      <img
+        src="img/animal1_bg.jpg"
+        alt="dog"
+        onclick="clickAA();"
+        ;
+        width="500.8px"
+        height="326.4px"
+      />
+      <audio
+        id="AAA"
+        src="audio/animals_2-4/audio_dog.mp3"
+        autoplay="false"
+      ></audio>
+      <button class="animals1" onclick="clickAA();">DOG</button>
+      <script>
+        function clickAA() {
+          var sound = document.getElementById("AAA");
+          sound.play();
+        }
+      </script>
+    </div>
+    <div class="second">
+      <img
+        src="img/animal2_bg.jpg"
+        alt="cat"
+        onclick="clickBB();"
+        width="500.8px"
+        height="326.4px"
+      />
+      <audio
+        id="BBB"
+        src="audio/animals_2-4/audio_cat.mp3"
+        autoplay="false"
+      ></audio>
+      <button class="animals2" onclick="clickBB();">CAT</button>
+      <script>
+        function clickBB() {
+          var sound = document.getElementById("BBB");
+          sound.play();
+        }
+      </script>
+    </div>
+
+    <div class="third">
+      <img
+        src="img/animal3_bg.jpg"
+        alt="ELEPHANT"
+        onclick="clickCC();"
+        width="500.8px"
+        height="326.4px"
+      />
+      <audio
+        id="CCC"
+        src="audio/animals_2-4/audio_elephant.mp3"
+        autoplay="false"
+      ></audio>
+      <button class="animals1" onclick="clickCC();">ELEPHANT</button>
+      <script>
+        function clickCC() {
+          var sound = document.getElementById("CCC");
+          sound.play();
+        }
+      </script>
+    </div>
+    <div class="fourth">
+      <img
+        src="img/animal4_bg.jpg"
+        alt="LION"
+        onclick="clickDD();"
+        width="500.8px"
+        height="326.4px"
+      />
+      <audio
+        id="DDD"
+        src="audio/animals_2-4/audio_lion.mp3"
+        autoplay="false"
+      ></audio>
+      <button class="animals2" onclick="clickDD();">LION</button>
+      <script>
+        function clickDD() {
+          var sound = document.getElementById("DDD");
+          sound.play();
+        }
+      </script>
+    </div>
+
+    <div class="fifth">
+      <img
+        src="img/animal5_bg.jpg"
+        alt="tiger"
+        onclick="clickEE();"
+        width="500.8px"
+        height="326.4px"
+      />
+      <audio
+        id="EEE"
+        src="audio/animals_2-4/audio_tiger.mp3"
+        autoplay="false"
+      ></audio>
+      <button class="animals1" onclick="clickEE();">TIGER</button>
+      <script>
+        function clickEE() {
+          var sound = document.getElementById("EEE");
+          sound.play();
+        }
+      </script>
+    </div>
+    <div class="sixth">
+      <img
+        src="img/animal6_bg.jpg"
+        alt="WOLF"
+        onclick="clickFF();"
+        width="500.8px"
+        height="326.4px"
+      />
+      <audio
+        id="FFF"
+        src="audio/animals_2-4/audio_wolf.mp3"
+        autoplay="false"
+      ></audio>
+      <button class="animals2" onclick="clickFF();">WOLF</button>
+      <script>
+        function clickFF() {
+          var sound = document.getElementById("FFF");
+          sound.play();
+        }
+      </script>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>time-out</title>
+</head>
+<style>
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:url(img/shape_bg.jpg) ;
+    background-size: cover;
+}
+.comtainer{
+    margin-top: 200px;
+}
+.time{
+    margin-top: 200px;
+    font-size: 100px;
+    animation: blink 3s linear infinite;
+}
+
+@keyframes blink{
+    25%{
+        opacity: 0.5;
+    }
+    50%{
+        opacity: 0;
+    }
+    75%{
+        opacity: 0.5;
+    }
+}
+
+</style>
+<body>
+    <div class="container">
+        <div class="box">
+            <center>
+                <p class="time">
+                YOUR TIME LIMIT ON THIS SITE IS OVER
+                </p>
+            </center>
+        </div>
+    </div>
+    
+</body>
+</html>

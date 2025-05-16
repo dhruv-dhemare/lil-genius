@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>shape</title>
+  </head>
+  <script src="timelimit.js"></script>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+    body {
+      background-image: url(img/shape_bg.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    h1 {
+      font-size: 100px;
+      font-style: italic;
+      text-decoration: underline;
+    }
+
+    .circle {
+      height: 250px;
+      width: 250px;
+      background-color: #000080;
+      border-radius: 50%;
+    }
+    .shape1 {
+      margin-left: 150px;
+      display: flex;
+      flex-direction: row;
+      margin-bottom: 25px;
+      justify-content: center;
+      margin-top: 100px;
+    }
+    .text {
+      margin-top: 75px;
+      margin-left: 50px;
+      margin-right: 50px;
+      font-size: 75px;
+    }
+    .square {
+      height: 250px;
+      width: 250px;
+      background: #000080;
+    }
+    .rectangle {
+      height: 170px;
+      width: 270px;
+      background: #000080;
+    }
+    .triangle-up {
+      width: 0;
+      height: 0;
+      border-left: 150px solid transparent;
+      border-right: 150px solid transparent;
+      border-bottom: 250px solid #000080;
+    }
+    .button {
+      width: 200px;
+      height: 50px;
+      margin-bottom: 100px;
+      font-size: 30px;
+      color: rgb(0, 0, 0);
+      background-color: aqua;
+      border-radius: 50%;
+    }
+    .QUIZ {
+      font-weight: bold;
+      font-family: cursive;
+    }
+    .shape2 {
+      display: flex;
+      flex-direction: row;
+    }
+    .tri {
+      display: flex;
+      flex-direction: row;
+    }
+    .aaa {
+      margin-top: 100px;
+    }
+  </style>
+  <body>
+    <center><h1>SHAPES</h1></center>
+    <div class="shape1">
+      <audio id="111" src="audio/shapes/circle.mp3" autoplay="false"></audio>
+      <div class="circle" onclick="click11();"></div>
+      <p class="text" onclick="click11();">CIRCLE</p>
+      <script>
+        function click11() {
+          var sound = document.getElementById("111");
+          sound.play();
+        }
+      </script>
+    </div>
+
+    <div class="shape1">
+      <audio id="112" src="audio/shapes/square.mp3" autoplay="false"></audio>
+      <div class="square" onclick="click12();"></div>
+      <p class="text" onclick="click12();">SQUARE</p>
+      <script>
+        function click12() {
+          var sound = document.getElementById("112");
+          sound.play();
+        }
+      </script>
+    </div>
+
+    <div class="shape1">
+      <audio id="113" src="audio/shapes/rectangle.mp3" autoplay="false"></audio>
+      <div class="rectangle" onclick="click13();"></div>
+      <p class="text" onclick="click13();">RECTANGLE</p>
+      <script>
+        function click13() {
+          var sound = document.getElementById("113");
+          sound.play();
+        }
+      </script>
+    </div>
+
+    <div class="shape1">
+      <audio id="114" src="audio/shapes/triangle.mp3" autoplay="false"></audio>
+      <div class="tri">
+        <div class="triangle-up" onclick="click14();"></div>
+        <p class="text" onclick="click14();">TRIANGLE</p>
+        <script>
+          function click14() {
+            var sound = document.getElementById("114");
+            sound.play();
+          }
+        </script>
+      </div>
+    </div>
+
+    <div class="aaa">
+      <center>
+        <b
+          ><button
+            class="button"
+            onclick="window.location.href='shape_quiz.html'"
+          >
+            <p class="QUIZ">QUIZ</p>
+          </button></b
+        >
+      </center>
+    </div>
+  </body>
+</html>

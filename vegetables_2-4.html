@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LIL GENIUS_vegetables</title>
+  </head>
+  <script src="timelimit.js"></script>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    body {
+      padding: 0;
+      margin: 0;
+      background-image: url(img/veggies_bg.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .lines {
+      font-size: 100px;
+      font-family: cursive;
+      color: rgba(255, 0, 255, 0.763);
+      background: rgba(186, 8, 180, 0.207);
+      text-shadow: 2px 2px 2px black;
+    }
+
+    ul {
+      padding: 100;
+      margin: 100;
+      list-style-type: none;
+      display: flex;
+      justify-content: flex-end;
+      margin-right: 40px;
+    }
+
+    li {
+      inline-size: 12%;
+    }
+
+    .veggies1 {
+      height: 120px;
+      width: 450px;
+      font-size: 80px;
+      font-family: cursive;
+      border-radius: 30px;
+      margin-left: 105px;
+      background-color: rgba(152, 97, 97, 0.207);
+    }
+    .veggies2 {
+      height: 120px;
+      width: 450px;
+      font-size: 80px;
+      font-family: cursive;
+      border-radius: 30px;
+      margin-right: 105px;
+      background-color: rgba(152, 97, 97, 0.207);
+    }
+
+    .first {
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+    }
+    .second {
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row-reverse;
+    }
+    .third {
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+    }
+    .fourth {
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row-reverse;
+    }
+    .fifth {
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+    }
+    .sixth {
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row-reverse;
+    }
+  </style>
+  <body>
+    <div class="nav">
+      <ul>
+        <li>
+          <a href="home.html"
+            ><font size="5"><b>Home</b></font></a
+          >
+        </li>
+        <li>
+          <a href="contactus.html"
+            ><font size="5"><b>Contact Us</b></font>
+          </a>
+        </li>
+        <li>
+          <a href="aboutus.html"
+            ><font size="5"><b>About Us</b></font>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="lines">
+      <p><center>VEGETABLES</center></p>
+    </div>
+
+    <div class="first">
+      <img
+        src="img/veggie1_bg.jpg"
+        alt="onion"
+        onclick="clickAA();"
+        ;
+        width="500.8px"
+        height="326.4px"
+      />
+      <audio
+        id="AAA"
+        src="audio/veggies_2-4/audio_onion.mp3"
+        autoplay="false"
+      ></audio>
+      <button class="veggies1" onclick="clickAA();">ONION</button>
+      <script>
+        function clickAA() {
+          var sound = document.getElementById("AAA");
+          sound.play();
+        }
+      </script>
+    </div>
+    <div class="second">
+      <img
+        src="img/veggie2_bg.jpg"
+        alt="potato"
+        onclick="clickBB();"
+        width="500.8px"
+        height="326.4px"
+      />
+      <audio
+        id="BBB"
+        src="audio/veggies_2-4/audio_potato.mp3"
+        autoplay="false"
+      ></audio>
+      <button class="veggies2" onclick="clickBB();">POTATO</button>
+      <script>
+        function clickBB() {
+          var sound = document.getElementById("BBB");
+          sound.play();
+        }
+      </script>
+    </div>
+
+    <div class="third">
+      <img
+        src="img/veggie3_bg.jpg"
+        alt="carrot"
+        onclick="clickCC();"
+        width="500.8px"
+        height="326.4px"
+      />
+      <audio
+        id="CCC"
+        src="audio/veggies_2-4/audio_carrot.mp3"
+        autoplay="false"
+      ></audio>
+      <button class="veggies1" onclick="clickCC();">CARROT</button>
+      <script>
+        function clickCC() {
+          var sound = document.getElementById("CCC");
+          sound.play();
+        }
+      </script>
+    </div>
+    <div class="fourth">
+      <img
+        src="img/veggie4_bg.jpg"
+        alt="cabbage"
+        onclick="clickDD();"
+        width="500.8px"
+        height="326.4px"
+      />
+      <audio
+        id="DDD"
+        src="audio/veggies_2-4/audio_cabbage.mp3"
+        autoplay="false"
+      ></audio>
+      <button class="veggies2" onclick="clickDD();">CABBAGE</button>
+      <script>
+        function clickDD() {
+          var sound = document.getElementById("DDD");
+          sound.play();
+        }
+      </script>
+    </div>
+
+    <div class="fifth">
+      <img
+        src="img/veggie5_bg.jpg"
+        alt="okra"
+        onclick="clickEE();"
+        width="500.8px"
+        height="326.4px"
+      />
+      <audio
+        id="EEE"
+        src="audio/veggies_2-4/audio_okra.mp3"
+        autoplay="false"
+      ></audio>
+      <button class="veggies1" onclick="clickEE();">OKRA</button>
+      <script>
+        function clickEE() {
+          var sound = document.getElementById("EEE");
+          sound.play();
+        }
+      </script>
+    </div>
+    <div class="sixth">
+      <img
+        src="img/veggie6_bg.jpg"
+        alt="broccoli"
+        onclick="clickFF();"
+        width="500.8px"
+        height="326.4px"
+      />
+      <audio
+        id="FFF"
+        src="audio/veggies_2-4/audio_broccoli.mp3"
+        autoplay="false"
+      ></audio>
+      <button class="veggies2" onclick="clickFF();">BROCCOLI</button>
+      <script>
+        function clickFF() {
+          var sound = document.getElementById("FFF");
+          sound.play();
+        }
+      </script>
+    </div>
+  </body>
+</html>

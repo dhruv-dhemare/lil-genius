@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <script src="timelimit.js"></script>  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background-image: url(img/ages_bg.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .title {
+      font-size: 100px;
+      margin-top: 20px;
+    }
+
+    ul {
+      padding: 100;
+      margin: 100;
+      list-style-type: none;
+      display: flex;
+      justify-content: flex-end;
+      margin-right: 40px;
+    }
+
+    li {
+      inline-size: 12%;
+    }
+    .text {
+      font-size: 40px;
+    }
+    .text2 {
+      font-size: 60px;
+    }
+    .box1 {
+      margin-top: 50px;
+    }
+    .box2 {
+      margin-top: 200px;
+      margin-left: 50px;
+      margin-right: 50px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  </style>
+  <body>
+    <div class="nav">
+      <ul>
+        <li>
+          <a href="home.html"
+            ><font size="5"><b>Home</b></font></a
+          >
+        </li>
+        <li>
+          <a href="contactus.html"
+            ><font size="5"><b>Contact Us</b></font>
+          </a>
+        </li>
+        <li>
+          <a href="aboutus.html"
+            ><font size="5"><b>About Us</b></font>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <center><p class="title">ICE AGE</p></center>
+    <center>
+      <p class="text">
+        Earth has experienced several ice ages throughout its history, but the
+        most recent one, often referred to as the Pleistocene Epoch, occurred
+        from about 2.6 million to 11,700 years ago.
+      </p>
+    </center>
+    <center>
+      <img class="img" src="img/ice1.webp" alt="" width="500px" />
+    </center>
+    <center>
+      <p class="text">
+        During this time, large parts of the Earth's surface were covered by
+        glaciers, and many species adapted to cold climates, including mammoths
+        and saber-toothed cats.
+      </p>
+    </center>
+    <center><img src="img/ice2.jpg" alt="" width="500px" /></center>
+
+    <div class="box2">
+      <img src="img/ice3.jpg" alt="" width="400px" height="400px" />
+      <img src="img/ice4.jpg" alt="" width="400px" height="400px" />
+      <img src="img/ice5.jpg" alt="" width="400px" height="400px" />
+    </div>
+    <div class="box1">
+      <center><p class="text2">VIDEO</p></center>
+    </div>
+    <center>
+      <video width="700px" id="vid1" src="video/ages/ice.mp4" autoplay="false" controls></video>
+    </center>
+  </body>
+</html>

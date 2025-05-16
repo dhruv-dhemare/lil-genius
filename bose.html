@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NETAJI SHUBHASHCHNADRA BOSE</title>
+    <script src="timelimit.js"></script>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        background-image: url(img/afzal_bg.jpg);
+        background-size: cover;
+      }
+      h1 {
+        font-size: 100px;
+        text-shadow: 3px 3px beige;
+      }
+      .text {
+        font-size: 30px;
+      }
+      .img {
+        margin: 30px;
+      }
+      .container {
+        display: flex;
+        flex-direction: row;
+        margin-top: 70px;
+        margin-bottom: 70px;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+      .vid {
+        font-size: 60px;
+      }
+      .icon {
+        margin-left: 1000px;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <h1>NETAJI SHUBHASHCCHANDRA BOSE</h1>
+      <div class="icon">
+        <img
+          src="img/speaker_icon.png"
+          alt="speaker_icon"
+          width="40px"
+          onclick="clickAA();"
+          ;
+        />
+        <audio
+          id="AAA"
+          src="audio/bio/bose.mp3"
+          autoplay="false"
+        ></audio>
+        <script>
+          function clickAA() {
+            var sound = document.getElementById("AAA");
+            sound.play();
+          }
+        </script>
+      </div>
+      <div class="image">
+        <img src="img/bose1.jpeg" alt="fort" class="img" height="500px" />
+      </div>
+
+      <div class="container">
+        <div class="text">
+          Netaji Subhas Chandra Bose was a remarkable leader in India's struggle
+          for independence from British rule. Born in 1897, he was known for his
+          fiery determination and unwavering commitment to freeing India from
+          colonial oppression. Netaji was a charismatic figure who inspired
+          millions with his patriotism and vision for a free and united India.
+        </div>
+        <div class="image">
+          <img class="img" src="img/bose2.jpeg" alt="weapons" width="600px" />
+        </div>
+      </div>
+      <div class="text">
+        From a young age, Subhas Chandra Bose displayed leadership qualities and
+        a passion for social justice. He became involved in the Indian National
+        Congress and later founded the Forward Bloc, advocating for complete
+        independence from British rule. Netaji's famous slogan "Give me blood,
+        and I shall give you freedom" stirred the hearts of many Indians,
+        motivating them to join the freedom struggle.
+      </div>
+      <div class="container">
+        <div class="image">
+          <img class="img" src="img/bose3.jpeg" alt="meeting" width="600px" />
+        </div>
+        <div class="text">
+          One of the most iconic moments in Netaji's life was his formation of
+          the Indian National Army (INA) during World War II. He believed that
+          by aligning with the Axis powers, he could secure support for India's
+          independence. Despite facing challenges and setbacks, Netaji's
+          determination never wavered. His legacy continues to inspire
+          generations of Indians to strive for freedom, justice, and equality.
+        </div>
+      </div>
+    </center>
+  </body>
+</html>

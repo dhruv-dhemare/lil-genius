@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <script src="timelimit.js"></script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background-image: url(img/ages_bg.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .title {
+      font-size: 100px;
+      margin-top: 20px;
+    }
+
+    ul {
+      padding: 100;
+      margin: 100;
+      list-style-type: none;
+      display: flex;
+      justify-content: flex-end;
+      margin-right: 40px;
+    }
+
+    li {
+      inline-size: 12%;
+    }
+    .text {
+      font-size: 40px;
+    }
+    .text2 {
+      font-size: 60px;
+    }
+    .box1 {
+      margin-top: 50px;
+    }
+    .box2 {
+      margin-left: 50px;
+      margin-right: 50px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  </style>
+  <body>
+    <div class="nav">
+      <ul>
+        <li>
+          <a href="home.html"
+            ><font size="5"><b>Home</b></font></a
+          >
+        </li>
+        <li>
+          <a href="contactus.html"
+            ><font size="5"><b>Contact Us</b></font>
+          </a>
+        </li>
+        <li>
+          <a href="aboutus.html"
+            ><font size="5"><b>About Us</b></font>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <center><p class="title">AGE OF DINPSAURS</p></center>
+    <center>
+      <p class="text">
+        This period, known as the Mesozoic Era, lasted from about 252 to 66
+        million years ago.
+      </p>
+    </center>
+    <center>
+      <img class="img" src="img/dino1.jpg" alt="" width="500px" />
+    </center>
+    <center>
+      <p class="text">
+        It's divided into three periods: the Triassic, Jurassic, and Cretaceous.
+      </p>
+    </center>
+    <center><img src="img/dino2.webp" alt="" width="500px" /></center>
+    <center>
+      <p class="text">
+        Dinosaurs dominated the land, sea, and sky during this time, and the
+        Earth's continents were configured differently than they are today.
+      </p>
+    </center>
+
+    <center><p class="text">few dinosaurs of that era</p></center>
+    <div class="box2">
+      <img src="img/dino3.jpg" alt="" width="400px" height="400px" />
+      <img src="img/dino4.jpeg" alt="" width="400px" height="400px" />
+      <img src="img/dino5.jpeg" alt="" width="400px" height="400px" />
+    </div>
+    <div class="box1">
+      <center><p class="text2">VIDEO</p></center>
+    </div>
+    <center>
+      <video width="700px" id="vid1" src="video/ages/dino.mp4" autoplay="false" controls></video>
+    </center>
+  </body>
+</html>

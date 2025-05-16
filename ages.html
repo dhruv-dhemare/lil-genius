@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <script src="timelimit.js"></script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background-image: url(img/ages_bg.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .title {
+      font-size: 100px;
+      margin-top: 20px;
+    }
+
+    ul {
+      padding: 100;
+      margin: 100;
+      list-style-type: none;
+      display: flex;
+      justify-content: flex-end;
+      margin-right: 40px;
+    }
+
+    li {
+      inline-size: 12%;
+    }
+    .box1 {
+      margin-left: 100px;
+      margin-right: 50px;
+      margin-bottom: 200px;
+      font-size: 50px;
+    }
+    .box2 {
+      margin-right: 50px;
+      margin-bottom: 200px;
+      font-size: 50px;
+    }
+    .box3 {
+      margin-right: 100px;
+      margin-bottom: 200px;
+      font-size: 50px;
+    }
+    .entire {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-top: 50px;
+    }
+  </style>
+  <body>
+    <div class="nav">
+      <ul>
+        <li>
+          <a href="home.html"
+            ><font size="5"><b>Home</b></font></a
+          >
+        </li>
+        <li>
+          <a href="contactus.html"
+            ><font size="5"><b>Contact Us</b></font>
+          </a>
+        </li>
+        <li>
+          <a href="aboutus.html"
+            ><font size="5"><b>About Us</b></font>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <center><p class="title">INTO THE PAST</p></center>
+    <div class="entire">
+      <div class="box1">
+        <img
+          src="img/early_earth.jpg"
+          alt="early earth"
+          width="300px"
+          height="300px"
+          onclick="window.location.href='early_earth.html'"
+        />
+        <p onclick="window.location.href='early_earth.html'">EARLY EARTH</p>
+      </div>
+      <div class="box2">
+        <img
+          src="img/dinosaur_img.png"
+          alt="early earth"
+          width="300px"
+          height="300px"
+          onclick="window.location.href='age_dino.html'"
+        />
+        <p onclick="window.location.href='age_dino.html'">AGE OF DINPSAURS</p>
+      </div>
+      <div class="box2">
+        <img
+          src="img/ice_img.jpg"
+          alt="early earth"
+          width="300px"
+          height="300px"
+          onclick="window.location.href='ice_age.html'"
+        />
+        <p onclick="window.location.href='ice_age.html'">ICE AGE</p>
+      </div>
+      <div class="box3">
+        <img
+          src="img/modern_img.png"
+          alt="modern earth"
+          width="300px"
+          height="300px"
+          onclick="window.location.href='modern_earth.html'"
+        />
+        <p onclick="window.location.href='modern_earth.html'">MODERN EARTH</p>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>stories1</title>
+  </head>
+  <script src="timelimit.js"></script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    ul {
+      padding: 100;
+      margin: 100;
+      list-style-type: none;
+      display: flex;
+      justify-content: flex-end;
+      background-color: beige;
+    }
+
+    li {
+      inline-size: 12%;
+    }
+    h1 {
+      font-size: 100px;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif;
+      text-shadow: 2px 2px beige;
+    }
+    body {
+      background-image: url(img/crow_bg.jpg);
+      background-size: cover;
+    }
+    .box {
+      display: flex;
+      flex-direction: row;
+      margin-left: 50px;
+      margin-right: 50px;
+      margin-top: 50px;
+      justify-content: space-between;
+      margin-bottom: 100px;
+    }
+    .first {
+      height: 600px;
+      width: 400px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-left: 200px;
+    }
+    .second {
+      height: 600px;
+      width: 400px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin-right: 200px;
+    }
+    .photo {
+      margin-bottom: 30px;
+    }
+    .text {
+      font-size: 50px;
+      text-shadow: 2px 2px beige;
+      transition-property: text-shadow;
+    }
+    .text:hover {
+      text-shadow: 0px 0px beige;
+    }
+  </style>
+
+  <body>
+    <div class="nav">
+      <ul>
+        <li>
+          <a href="home.html"
+            ><font size="5"><b>Home</b></font></a
+          >
+        </li>
+        <li>
+          <a href="contactus.html"
+            ><font size="5"><b>Contact Us</b></font>
+          </a>
+        </li>
+        <li>
+          <a href="aboutus.html"
+            ><font size="5"><b>About Us</b></font>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <center><h1>STORIES</h1></center>
+
+    <div class="box">
+      <div class="first">
+        <img
+          class="photo"
+          src="img/hw_home.jpg"
+          alt="img"
+          width="400px"
+          onclick="window.location.href='woodcutter.html'"
+        />
+        <p class="text" onclick="window.location.href='woodcutter.html'">
+          THE HONEST WOODCUTTER
+        </p>
+      </div>
+      <div class="second">
+        <img
+          class="photo"
+          src="img/croww_home.jpg"
+          alt="img"
+          width="400px"
+          onclick="window.location.href='thirstycrow.html'"
+        />
+        <p class="text" onclick="window.location.href='thirstycrow.html'">
+          THIRSTY CROW
+        </p>
+      </div>
+    </div>
+
+    <div class="box">
+      <div class="first">
+        <img
+          class="photo"
+          src="img/rt_home.jpeg"
+          alt="img"
+          width="400px"
+          onclick="window.location.href='rabbit_and_tortoise.html'"
+        />
+        <p
+          class="text"
+          onclick="window.location.href='rabbit_and_tortoise.html'"
+        >
+          RABBIT AND THE TORTOISE
+        </p>
+      </div>
+      <div class="second">
+        <img
+          class="photo"
+          src="img/lm_home.webp"
+          alt="img"
+          width="400px"
+          onclick="window.location.href='lion_mouse.html'"
+        />
+        <p class="text" onclick="window.location.href='lion_mouse.html'">
+          THE LION AND THE MOUSE
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

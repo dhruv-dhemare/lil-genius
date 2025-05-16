@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <script src="timelimit.js"></script>
+  <style>
+    .Myself {
+      margin-left: 570px;
+      font-size: 100px;
+      margin-top: 7%;
+      margin-bottom: 2%;
+    }
+    .content {
+      margin-left: 35%;
+      margin-top: 40px;
+    }
+    .tr {
+      text-align: center;
+    }
+    .icon {
+        margin-left: 1000px;
+      }
+  </style>
+  <body style="background-image: url(img/myself2.jpg); background-size: cover">
+    <h1 class="Myself">Myself</h1>
+    <div class="icon">
+      <img
+        src="img/speaker_icon.png"
+        alt="speaker_icon"
+        width="40px"
+        onclick="clickAA();"
+        ;
+      />
+      <audio
+        id="AAA"
+        src="audio/myself.mp3"
+        autoplay="false"
+      ></audio>
+      <script>
+        function clickAA() {
+          var sound = document.getElementById("AAA");
+          sound.play();
+        }
+      </script>
+    </div>
+    <table class="content">
+      <tr class="tr">
+        <td>
+          <h1>Hello!, My name is Raj.</h1>
+          <h1>I am 7 years old</h1>
+          <h1>I am in standard 1st</h1>
+          <h1>I like to study english</h1>
+          <h1>I like to play football</h1>
+          <h1>My favorite colour is yellow</h1>
+          <h1>My favourite food is indian</h1>
+          <h1>My hobby is craft</h1>
+          <h1>In my free time I love to play video games</h1>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

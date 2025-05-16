@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <script src="timelimit.js"></script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background-image: url(img/ages_bg.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .title {
+      font-size: 100px;
+      margin-top: 20px;
+    }
+
+    ul {
+      padding: 100;
+      margin: 100;
+      list-style-type: none;
+      display: flex;
+      justify-content: flex-end;
+      margin-right: 40px;
+    }
+
+    li {
+      inline-size: 12%;
+    }
+    .text {
+      font-size: 40px;
+    }
+    .text2 {
+      font-size: 60px;
+    }
+    .box1 {
+      margin-top: 50px;
+    }
+  </style>
+  <body>
+    <div class="nav">
+      <ul>
+        <li>
+          <a href="home.html"
+            ><font size="5"><b>Home</b></font></a
+          >
+        </li>
+        <li>
+          <a href="contactus.html"
+            ><font size="5"><b>Contact Us</b></font>
+          </a>
+        </li>
+        <li>
+          <a href="aboutus.html"
+            ><font size="5"><b>About Us</b></font>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <center><p class="title">EARLY EARTH</p></center>
+    <center>
+      <p class="text">
+        This refers to the very early stages of Earth's formation, roughly 4.6
+        billion years ago.
+      </p>
+    </center>
+    <center>
+      <img class="img" src="img/early1.png" alt="" width="500px" />
+    </center>
+    <center>
+      <p class="text">
+        During this time, the Earth was still forming, undergoing intense
+        volcanic activity, and experiencing frequent asteroid impacts.
+      </p>
+    </center>
+    <center><img src="img/early2.png" alt="" width="500px" /></center>
+    <center>
+      <p class="text">
+        The atmosphere was very different from today, mostly composed of gases
+        like hydrogen and helium.
+      </p>
+    </center>
+    <div class="box1">
+      <center><p class="text2">VIDEO</p></center>
+    </div>
+    <center>
+      <video
+        width="700px"
+        id="vid1"
+        src="video/early.mp4"
+        autoplay="false"
+        controls
+      ></video>
+    </center>
+  </body>
+</html>

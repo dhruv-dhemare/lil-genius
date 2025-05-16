@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>maths</title>
+  </head>
+  <script src="timelimit.js"></script>  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background-image: url(img/maths.jpg);
+    }
+    h1 {
+      font-size: 70px;
+      text-decoration: underline;
+      text-shadow: 3px 3px beige;
+    }
+    .text {
+      font-size: 70px;
+      text-shadow: 0px 0px beige;
+    }
+    .text:hover {
+      text-shadow: 3px 3px beige;
+    }
+    .box {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-left: 200px;
+      margin-right: 200px;
+      margin-top: 50px;
+    }
+    ul {
+      padding: 100;
+      margin: 100;
+      list-style-type: none;
+      display: flex;
+      justify-content: flex-end;
+      background-color: beige;
+    }
+
+    li {
+      inline-size: 12%;
+    }
+  </style>
+  <body>
+    <div class="nav">
+      <ul>
+        <li>
+          <a href="home.html"
+            ><font size="5"><b>Home</b></font></a
+          >
+        </li>
+        <li>
+          <a href="contactus.html"
+            ><font size="5"><b>Contact Us</b></font>
+          </a>
+        </li>
+        <li>
+          <a href="aboutus.html"
+            ><font size="5"><b>About Us</b></font>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <center>
+      <h1>
+        ADDITION <br />
+        AND <br />SUBTRACTION
+      </h1>
+    </center>
+    <div class="container">
+      <div class="box">
+        <img
+          src="img/addition.jpg"
+          alt=""
+          width="400px"
+          onclick="window.location.href='add.html'"
+        />
+        <p class="text" onclick="window.location.href='add.html'">ADDITION</p>
+      </div>
+      <div class="box">
+        <img
+          src="img/sub.png"
+          alt=""
+          width="400px"
+          onclick="window.location.href='sub.html'"
+        />
+        <p class="text" onclick="window.location.href='sub.html'">
+          SUBTRACTION
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

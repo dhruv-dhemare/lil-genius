@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>history</title>
+  </head>
+  <script src="timelimit.js"></script>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+    body {
+      background-image: url(img/afzal_bg.jpg);
+      background-size: cover;
+      opacity: 100%;
+    }
+    .h1 {
+      width: 600px;
+      font-size: 100px;
+      text-shadow: 2px 2px rgb(139, 139, 124);
+      font-style: italic;
+      text-decoration: underline;
+    }
+    .box {
+      margin: 50px;
+      margin-left: 150px;
+      margin-right: 150px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    .first {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-right: 10px;
+    }
+    .second {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+    .text {
+      margin: 40px;
+      font-size: 50px;
+      text-shadow: 0px 0px beige;
+      transition: text-shadow;
+    }
+    .text:hover {
+      text-shadow: 2px 2px beige;
+    }
+    ul {
+      padding: 100;
+      margin: 100;
+      list-style-type: none;
+      display: flex;
+      justify-content: flex-end;
+      background-color: beige;
+    }
+
+    li {
+      inline-size: 12%;
+    }
+  </style>
+  <body>
+    <div class="nav">
+      <ul>
+        <li>
+          <a href="home.html"
+            ><font size="5"><b>Home</b></font></a
+          >
+        </li>
+        <li>
+          <a href="contactus.html"
+            ><font size="5"><b>Contact Us</b></font>
+          </a>
+        </li>
+        <li>
+          <a href="aboutus.html"
+            ><font size="5"><b>About Us</b></font>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <center><p class="h1">HISTORY</p></center>
+    <div class="box">
+      <div class="first">
+        <img
+          src="img/bio_bg.webp"
+          alt="epics"
+          width="600px"
+          onclick="window.location.href='bio.html'"
+          height="450px"
+        />
+        <p class="text" onclick="window.location.href='bio.html'">BIOGRAPHY</p>
+      </div>
+      <div class="second">
+        <img
+          src="img/biography_bg.webp"
+          alt="biography"
+          width="600px"
+          onclick="window.location.href='SHIVAJI.html'"
+        />
+        <p class="text" onclick="window.location.href='shivaji.html'">
+          VEER MARATHA
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

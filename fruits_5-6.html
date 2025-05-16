@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LIL GENIUS_fruits</title>
+  </head>
+  <script src="timelimit.js"></script>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+
+    body {
+      padding: 0;
+      margin: 0;
+      background-image: url(img/fruits_2-4_bg.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .lines {
+      font-size: 100px;
+      font-family: cursive;
+      color: black;
+      background: rgba(213, 250, 104, 0.86);
+    }
+
+    ul {
+      padding: 100;
+      margin: 100;
+      list-style-type: none;
+      display: flex;
+      justify-content: flex-end;
+      margin-right: 40px;
+    }
+
+    li {
+      inline-size: 12%;
+    }
+
+    .fruits1 {
+      height: 120px;
+      width: 450px;
+      font-size: 80px;
+      font-family: cursive;
+      border-radius: 30px;
+      margin-left: 105px;
+      background-color: rgba(255, 123, 0, 0.382);
+    }
+    .fruits3 {
+      height: 120px;
+      width: 555px;
+      font-size: 80px;
+      font-family: cursive;
+      border-radius: 30px;
+      margin-left: 105px;
+      background-color: rgba(255, 123, 0, 0.382);
+    }
+    .fruits2 {
+      height: 120px;
+      width: 450px;
+      font-size: 80px;
+      font-family: cursive;
+      border-radius: 30px;
+      margin-right: 105px;
+      background-color: rgba(255, 123, 0, 0.382);
+    }
+
+    .first {
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+    }
+    .second {
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row-reverse;
+    }
+    .third {
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+    }
+    .fourth {
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row-reverse;
+    }
+    .fifth {
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+    }
+    .sixth {
+      margin-bottom: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row-reverse;
+    }
+  </style>
+  <body>
+    <div class="nav">
+      <ul>
+        <li>
+          <a href="home.html"
+            ><font size="5"><b>Home</b></font></a
+          >
+        </li>
+        <li>
+          <a href="contactus.html"
+            ><font size="5"><b>Contact Us</b></font>
+          </a>
+        </li>
+        <li>
+          <a href="aboutus.html"
+            ><font size="5"><b>About Us</b></font>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="lines">
+      <p><center>FRUITS</center></p>
+    </div>
+
+    <div class="first">
+      <img
+        src="img/kiwi.jpg"
+        alt="mango"
+        onclick="clickAA();"
+        ;
+        width="500.8px"
+        height="326.4px"
+      />
+      <audio
+        id="AAA"
+        src="audio/words2/kiwi.mp3"
+        autoplay="false"
+      ></audio>
+      <button class="fruits1" onclick="clickAA();">KIWI</button>
+      <script>
+        function clickAA() {
+          var sound = document.getElementById("AAA");
+          sound.play();
+        }
+      </script>
+    </div>
+    <div class="second">
+      <img
+        src="img/grapes.jpg"
+        alt="pear"
+        onclick="clickBB();"
+        width="500.8px"
+        height="326.4px"
+      />
+      <audio
+        id="BBB"
+        src="audio/words2/grapes.mp3"
+        autoplay="false"
+      ></audio>
+      <button class="fruits2" onclick="clickBB();">GRAPES</button>
+      <script>
+        function clickBB() {
+          var sound = document.getElementById("BBB");
+          sound.play();
+        }
+      </script>
+    </div>
+
+    <div class="third">
+      <img
+        src="img/strawberrry.jpg"
+        alt="orange"
+        onclick="clickCC();"
+        width="500.8px"
+        height="326.4px"
+      />
+      <audio
+        id="CCC"
+        src="audio/words2/strawberry.mp3"
+        autoplay="false"
+      ></audio>
+      <button class="fruits3" onclick="clickCC();">STRAWBERRY</button>
+      <script>
+        function clickCC() {
+          var sound = document.getElementById("CCC");
+          sound.play();
+        }
+      </script>
+    </div>
+    <div class="fourth">
+      <img
+        src="img/pineapple.jpg"
+        alt="banana"
+        onclick="clickDD();"
+        width="500.8px"
+        height="326.4px"
+      />
+      <audio
+        id="DDD"
+        src="audio/words2/pineapple.mp3"
+        autoplay="false"
+      ></audio>
+      <button class="fruits2" onclick="clickDD();">PINEAPPLE</button>
+      <script>
+        function clickDD() {
+          var sound = document.getElementById("DDD");
+          sound.play();
+        }
+      </script>
+    </div>
+
+    <div class="fifth">
+      <img
+        src="img/papaya.jpg"
+        alt="tomato"
+        onclick="clickEE();"
+        width="500.8px"
+        height="326.4px"
+      />
+      <audio
+        id="EEE"
+        src="audio/words2/papaya.mp3"
+        autoplay="false"
+      ></audio>
+      <button class="fruits1" onclick="clickEE();">PAPAYA</button>
+      <script>
+        function clickEE() {
+          var sound = document.getElementById("EEE");
+          sound.play();
+        }
+      </script>
+    </div>
+    <div class="sixth">
+      <img
+        src="img/cheerry.jpg"
+        alt="apple"
+        onclick="clickFF();"
+        width="500.8px"
+        height="326.4px"
+      />
+      <audio
+        id="FFF"
+        src="audio/words2/cherry.mp3"
+        autoplay="false"
+      ></audio>
+      <button class="fruits2" onclick="clickFF();">CHERRY</button>
+      <script>
+        function clickFF() {
+          var sound = document.getElementById("FFF");
+          sound.play();
+        }
+      </script>
+    </div>
+  </body>
+</html>

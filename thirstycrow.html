@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>THIRSTY CROW</title>
+  </head>
+  <script src="timelimit.js"></script>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      background-image: url(img/crow_bg.jpg);
+      background-size: cover;
+    }
+    .box1 {
+      display: flex;
+      flex-direction: row;
+      margin-top: 50px;
+      margin-bottom: 20px;
+      margin-right: 100px;
+      margin-left: 100px;
+      align-items: center;
+    }
+    .box2 {
+      display: flex;
+      flex-direction: row-reverse;
+      margin-top: 50px;
+      margin-bottom: 20px;
+      margin-right: 100px;
+      margin-left: 100px;
+      align-items: center;
+    }
+    .photo {
+      width: 500px;
+      margin: 30px;
+    }
+    .text {
+      font-size: 40px;
+      font-family: cursive;
+    }
+    h1 {
+      margin-top: 20px;
+      font-size: 80px;
+      font-family: cursive;
+      text-shadow: 2px 2px beige;
+    }
+    .moral {
+      font-size: 50px;
+      font-family: cursive;
+      margin-bottom: 20px;
+    }
+    .p {
+      font-size: 30px;
+    }
+    .vid {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      margin-left: 50px;
+      margin-right: 50px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+    .icon {
+      margin-left: 1400px;
+    }
+  </style>
+  <body>
+    <center>
+      <h1><u>THE THIRSTY CROW</u></h1>
+      <div class="icon">
+        <img
+          src="img/speaker_icon.png"
+          alt="speaker_icon"
+          width="40px"
+          onclick="clickAA();"
+          ;
+        />
+        <audio id="AAA" src="audio/stories/crow.mp3" autoplay="false"></audio>
+        <script>
+          function clickAA() {
+            var sound = document.getElementById("AAA");
+            sound.play();
+          }
+        </script>
+      </div>
+      <div class="box1">
+        <div class="img">
+          <img class="photo" src="img/crow1.jpg" alt="crow1" />
+        </div>
+        <div class="text">
+          There was a crow which was very thirsty. He searched for water every
+          where. At last he saw a water pot near a well.
+        </div>
+      </div>
+      <div class="box2">
+        <div class="img">
+          <img class="photo" src="img/crow2.jpg" alt="crow2" />
+        </div>
+        <div class="text">
+          He looked inside the pot. There was very little water in the pot. The
+          crow saw some stones nearby. He thought of a plan. He picked up some
+          stones.
+        </div>
+      </div>
+      <div class="box1">
+        <div class="img">
+          <img class="photo" src="img/crow3.jpg" alt="crow3" />
+        </div>
+        <div class="text">
+          He put them one by one into the pot. The water level in the pot came
+          up. The crow drank the water and flew away happily.
+        </div>
+      </div>
+      <div class="moral">
+        <p>
+          <b><u>MORAL:- NECESSITY IS THE MOTHER OF INVENTIONS</u></b>
+        </p>
+      </div>
+    </center>
+    <div class="vid">
+      <center>
+        <div class="one">
+          <p class="p">ENGLISH</p>
+          <video src="" width="700px"></video>
+        </div>
+      </center>
+      <center>
+        <div class="one">
+          <p class="p">HINDI</p>
+          <video src="" width="700px"></video>
+        </div>
+      </center>
+    </div>
+  </body>
+</html>

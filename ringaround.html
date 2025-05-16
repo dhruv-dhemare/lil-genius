@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script src="timelimit.js"></script>
+<style>
+    .Myself{
+        margin-left: 290px;
+        font-size: 90px;
+        margin-top: 7%;
+        margin-bottom: 2%;
+        
+    }
+    .content{
+        margin-left: 36%;
+        margin-top: 20px;
+    
+    }
+    .tr{
+        text-align: center;
+       
+    }
+    .icon{
+        margin-left: 1200px;
+    }
+</style>
+<body style="background-image: url(img/ring\ around.jpg);
+background-size: cover;">
+    <h1 class=Myself >Ring Around The Roses</h1>
+    <div class="icon">
+        <img
+          src="img/speaker_icon.png"
+          alt="speaker_icon"
+          width="60px"
+          onclick="clickAA();"
+          ;
+        />
+        <audio
+          id="AAA"
+          src="audio/rain rain.mp3"
+          autoplay="false"
+        ></audio>
+        <script>
+          function clickAA() {
+            var sound = document.getElementById("AAA");
+            sound.play();
+          }
+        </script>
+      </div>
+    <table class=content>
+        <tr class="tr">
+            <td>
+                <h1>Ring-a-ring-a-rosies</h1>
+                <h1>A pocket full of posies</h1>
+                <h1>A tissue, a tissue</h1>
+                <h1>We all fall down</h1>
+            </td>
+        </tr>
+        <tr class="tr">
+            <td>
+                <h1>The king has sent his daughter</h1>
+                <h1>To fetch a pail of water</h1>
+                <h1>A tissue, a tissue</h1>
+                <h1>We all fall down</h1>
+            </td>
+        </tr>
+        <tr class="tr">
+            <td>
+                <h1>The robin on the steeple</h1>
+                <h1>Is singing to the people</h1>
+                <h1>A tissue, a tissue</h1>
+                <h1>We all fall down</h1>
+            </td>
+        </tr>    

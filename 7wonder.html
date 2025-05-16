@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>7 wonders</title>
+  </head>
+  <script src="timelimit.js"></script>
+  <style>
+    * {
+      padding: 0;
+      margin: 0;
+    }
+    body {
+      background-image: url(img/7wonder_bg.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    .title {
+      font-size: 100px;
+    }
+
+    ul {
+      padding: 100;
+      margin: 100;
+      list-style-type: none;
+      display: flex;
+      justify-content: flex-end;
+      margin-right: 40px;
+    }
+
+    li {
+      inline-size: 12%;
+    }
+    .wall {
+      font-size: 50px;
+      color: rgb(0, 0, 0);
+    }
+    .first {
+      margin-left: 20px;
+      margin-right: 20px;
+      display: flex;
+      flex-direction: row;
+      margin-top: 100px;
+      margin-bottom: 100px;
+    }
+    .text {
+      font-size: 40px;
+    }
+    .second {
+      margin-right: 20px;
+      margin-left: 20px;
+      display: flex;
+      flex-direction: row-reverse;
+      margin-top: 100px;
+      margin-bottom: 100px;
+    }
+    .sss {
+      margin: 20px;
+    }
+  </style>
+  <body>
+    <div class="nav">
+      <ul>
+        <li>
+          <a href="home.html"
+            ><font size="5"><b>Home</b></font></a
+          >
+        </li>
+        <li>
+          <a href="contactus.html"
+            ><font size="5"><b>Contact Us</b></font>
+          </a>
+        </li>
+        <li>
+          <a href="aboutus.html"
+            ><font size="5"><b>About Us</b></font>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <center><p class="title">7 WONDERS OF THE WORLD</p></center>
+    <div class="first">
+      <div class="wall">
+        <img
+          class="sss"
+          src="img/wall_of_china_img.jpg"
+          alt="china"
+          width="500px"
+        />
+        <p>GREAT WALL OF CHINA-(CHINA)</p>
+        <div class="icon">
+          <img
+            src="img/speaker_icon.png"
+            alt="speaker_icon"
+            width="40px"
+            onclick="clickAA();"
+            ;
+          />
+          <audio
+            id="AAA"
+            src="audio/wonders/wall of china.mp3"
+            autoplay="false"
+          ></audio>
+          <script>
+            function clickAA() {
+              var sound = document.getElementById("AAA");
+              sound.play();
+            }
+          </script>
+        </div>
+      </div>
+      <div class="text">
+        <p>
+          The great wall of china is present in China. It was built in 7th
+          century BC.The first emperor Qin Shi Huang was the one to build it. It
+          is 21196 km in length.It is a series of fortifications that were built
+          across the historical northern borders of ancient Chinese states. It
+          served the purpose of protection against various nomadic groups from
+          the Eurasian Steppe.
+        </p>
+      </div>
+    </div>
+    <div class="second">
+      <div class="wall">
+        <img
+          class="sss"
+          src="img/taj_mahal_img.jpg"
+          alt="taj mahal"
+          width="500px"
+        />
+        <p>TAJ MAHAL-(INDIA)</p>
+        <div class="icon">
+          <img
+            src="img/speaker_icon.png"
+            alt="speaker_icon"
+            width="40px"
+            onclick="clickAA();"
+            ;
+          />
+          <audio
+            id="AAA"
+            src="audio/wonders/taj mahal.mp3"
+            autoplay="false"
+          ></audio>
+          <script>
+            function clickAA() {
+              var sound = document.getElementById("AAA");
+              sound.play();
+            }
+          </script>
+        </div>
+      </div>
+      <div class="text">
+        <p>
+          The Taj Mahal was built by a famous Mughal emperor named Shah Jahan in
+          memory of his wife Mumtaz Mahal. Building of the Taj Mahal began in
+          the year 1632. It took about 20 years to complete! The Taj Mahal is
+          made of beautiful white marble It's about 73 meters tall (240 feet)
+          and the main dome is 35 meters (115 feet) tall. It has a big pool in
+          front called the "reflecting pool."
+        </p>
+      </div>
+    </div>
+
+    <div class="first">
+      <div class="wall">
+        <img class="sss" src="img/rome_img.jpg" alt="rome" width="500px" />
+        <p>COLOSSUM -(ROME)</p>
+        <div class="icon">
+          <img
+            src="img/speaker_icon.png"
+            alt="speaker_icon"
+            width="40px"
+            onclick="clickAA();"
+            ;
+          />
+          <audio
+            id="AAA"
+            src="audio/wonders/rome.mp3"
+            autoplay="false"
+          ></audio>
+          <script>
+            function clickAA() {
+              var sound = document.getElementById("AAA");
+              sound.play();
+            }
+          </script>
+        </div>
+      </div>
+      <div class="text">
+        <p>
+          The Colosseum, also known as the Flavian Amphitheater, was built by
+          the ancient Romans. It was constructed during the Roman Empire, around
+          70-80 AD. The Colosseum is a huge amphitheater, which means it's like
+          a giant stadium. It was used for all sorts of events, like gladiator
+          fights, animal hunts, and even mock sea battles! The Colosseum is made
+          of stone and concrete, and It's about 50 meters tall (160 feet) and
+          could hold around 50,000 spectators. The Colosseum is a symbol of
+          ancient Rome's power and engineering skill
+        </p>
+      </div>
+    </div>
+
+    <div class="second">
+      <div class="wall">
+        <img class="sss" src="img/petra_img.jpg" alt="petra" width="500px" />
+        <p>PETRA-(JORDON)</p>
+        <div class="icon">
+          <img
+            src="img/speaker_icon.png"
+            alt="speaker_icon"
+            width="40px"
+            onclick="clickAA();"
+            ;
+          />
+          <audio
+            id="AAA"
+            src="audio/wonders/petra.mp3"
+            autoplay="false"
+          ></audio>
+          <script>
+            function clickAA() {
+              var sound = document.getElementById("AAA");
+              sound.play();
+            }
+          </script>
+        </div>
+      </div>
+      <div class="text">
+        <p>
+          It is originally known to its inhabitants as Raqmu or Raqēmō. It is a
+          historic and archaeological city in southern Jordan. It is famous for
+          its rock-cut architecture and water conduit system. Petra is also
+          called the "Rose City" because of the colour of the sandstone. It
+          built in early 5th century BC.
+        </p>
+      </div>
+    </div>
+
+    <div class="first">
+      <div class="wall">
+        <img
+          class="sss"
+          src="img/machu_picchu_img.jpg"
+          alt="MACHU PICCHU"
+          width="500px"
+        />
+        <p>MACHU PICCHU -(PERU)</p>
+        <div class="icon">
+          <img
+            src="img/speaker_icon.png"
+            alt="speaker_icon"
+            width="40px"
+            onclick="clickAA();"
+            ;
+          />
+          <audio
+            id="AAA"
+            src="audio/wonders/peru.mp3"
+            autoplay="false"
+          ></audio>
+          <script>
+            function clickAA() {
+              var sound = document.getElementById("AAA");
+              sound.play();
+            }
+          </script>
+        </div>
+      </div>
+      <div class="text">
+        <p>
+          Machu Picchu is a 15th-century Inca citadel located in the Eastern
+          Cordillera of southern Peru. It is a 2,430-meter (7,970 ft) mountain
+          ridge.It is often referred to as the "Lost City of the Incas". It is
+          the most familiar icon of the Inca Empire. It is located in the
+          Machupicchu District within Urubamba Province above the Sacred Valley
+        </p>
+      </div>
+    </div>
+    <div class="second">
+      <div class="wall">
+        <img class="sss" src="img/christ_img.jpeg" alt="petra" width="500px" />
+        <p>CHRIST THE REDEMEER-(RIO DE JENERIO)</p>
+        <div class="icon">
+          <img
+            src="img/speaker_icon.png"
+            alt="speaker_icon"
+            width="40px"
+            onclick="clickAA();"
+            ;
+          />
+          <audio
+            id="AAA"
+            src="audio/wonders/christ.mp3"
+            autoplay="false"
+          ></audio>
+          <script>
+            function clickAA() {
+              var sound = document.getElementById("AAA");
+              sound.play();
+            }
+          </script>
+        </div>
+      </div>
+      <div class="text">
+        <p>
+          It is an art deco statue of Jesus Christ. It is located in Rio de
+          Janeiro in Brazil. It was constructed in between 1922-1931. The statue
+          is 98 ft in height. It was designed by Paul Landowski This statue is
+          the largest Art Deco style sculpture in the world. A symbol of
+          Christianity around the world, the statue has also become a cultural
+          icon of both Rio de Janeiro and Brazil.
+        </p>
+      </div>
+    </div>
+
+    <div class="first">
+      <div class="wall">
+        <img
+          class="sss"
+          src="img/chichen_itza_img.jpg"
+          alt="CHICHEN ITZA"
+          width="500px"
+        />
+        <p>CHICHEN ITZA-(MEXICO)</p>
+        <div class="icon">
+          <img
+            src="img/speaker_icon.png"
+            alt="speaker_icon"
+            width="40px"
+            onclick="clickAA();"
+            ;
+          />
+          <audio
+            id="AAA"
+            src="audio/wonders/itza.mp3"
+            autoplay="false"
+          ></audio>
+          <script>
+            function clickAA() {
+              var sound = document.getElementById("AAA");
+              sound.play();
+            }
+          </script>
+        </div>
+      </div>
+      <div class="text">
+        <p>
+          Chichen Itza is an ancient city built by the Mayan civilization. It's
+          located in the Yucatan Peninsula of Mexico. The Maya people built
+          Chichen Itza over a thousand years ago, between the 7th and 10th
+          centuries AD. One of the most famous structures in Chichen Itza is the
+          Pyramid of Kukulcan, also known as El Castillo. It's a huge step
+          pyramid with four sides, each with 91 steps. That's a total of 364
+          steps, plus the top platform makes 365, one for each day of the year!
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

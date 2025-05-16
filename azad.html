@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CHANDRASHEKAR AZAD</title>
+    <script src="timelimit.js"></script>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+      }
+      body {
+        background-image: url(img/afzal_bg.jpg);
+        background-size: cover;
+      }
+      h1 {
+        font-size: 100px;
+        text-shadow: 3px 3px beige;
+      }
+      .text {
+        font-size: 30px;
+      }
+      .img {
+        margin: 30px;
+      }
+      .container {
+        display: flex;
+        flex-direction: row;
+        margin-top: 70px;
+        margin-bottom: 70px;
+        align-items: center;
+        justify-content: space-between;
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+      .vid {
+        font-size: 60px;
+      }
+      .icon {
+        margin-left: 1000px;
+      }
+    </style>
+  </head>
+  <body>
+    <center>
+      <h1>CHANDRASHEKAR AZAD</h1>
+      <div class="icon">
+        <img
+          src="img/speaker_icon.png"
+          alt="speaker_icon"
+          width="40px"
+          onclick="clickAA();"
+          ;
+        />
+        <audio
+          id="AAA"
+          src="audio/bio/azad.mp3"
+          autoplay="false"
+        ></audio>
+        <script>
+          function clickAA() {
+            var sound = document.getElementById("AAA");
+            sound.play();
+          }
+        </script>
+      </div>
+      <div class="image">
+        <img src="img/azad1.jpg" alt="fort" class="img" height="500px" />
+      </div>
+
+      <div class="container">
+        <div class="text">
+          Chandrashekhar Azad, also known as Azad, was a brave and fearless
+          freedom fighter in India's struggle for independence. Born in 1906, he
+          was deeply committed to the cause of freeing India from British rule.
+          Azad played a crucial role in the fight for independence and became a
+          symbol of resistance against colonial oppression.
+        </div>
+        <!-- <div class="image">
+          <img class="img" src="img/bose2.jpeg" alt="weapons" width="600px" />
+        </div> -->
+      </div>
+      <div class="text">
+        Azad was deeply influenced by the ideals of Mahatma Gandhi and joined
+        the Non-Cooperation Movement at a young age. However, he later felt that
+        peaceful protests were not enough to achieve India's freedom. He became
+        a prominent member of the Hindustan Socialist Republican Association
+        (HSRA), advocating for more militant actions against the British.
+      </div>
+      <div class="container">
+        <!-- <div class="image">
+          <img class="img" src="img/bose3.jpeg" alt="meeting" width="600px" />
+        </div> -->
+        <div class="text">
+          Despite facing constant surveillance and threats from the British
+          authorities, Azad remained steadfast in his commitment to the cause.
+          He played a key role in several revolutionary activities, including
+          the Kakori Train Robbery and the shooting of British officer J.P.
+          Saunders. Azad's courage, determination, and sacrifice continue to
+          inspire generations of Indians to fight for justice and freedom.
+        </div>
+      </div>
+    </center>
+  </body>
+</html>
